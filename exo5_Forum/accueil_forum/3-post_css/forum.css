@@ -1,0 +1,242 @@
+@font-face {
+	font-family: "The Heart of Everything Demo";
+	src: url('../police/TheHeartof.ttf');
+}
+body{
+  margin:0;
+  line-height:1.5;
+  text-align:center;
+  background-image: url(../images/fond2.jpg);
+  background-repeat:no-repeat;
+  background-position:absolute;
+  background-size: cover;
+}
+p.salut{
+	margin-right:auto;
+	margin-left:auto;
+	width:auto;
+	height:auto;
+	color:white;
+	font-family: The Heart of Everything Demo;
+	font-size:2em;
+}
+
+p.titre{
+	margin-top:-90px;
+	margin-right:auto;
+	margin-left:30%;
+	width:auto;
+	height:auto;
+	background: linear-gradient(to top, #fff, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: The Heart of Everything Demo;
+	font-size:150px;
+}
+.position1{
+	margin-top:-250px;
+}
+img.photo{
+	width:auto;
+	height:70px;
+	margin-left:70%;
+	transform: rotate(20deg);
+}
+
+.auteur_A{
+	background-color:#111;
+	margin-top:-16px;
+	font-family:Arial;
+}
+p.creer_A{
+	margin-left:90%;
+	color:#888;
+}
+.createur_A{
+	margin-top:-26px; 
+	margin-left:90%;
+	color:#fff;
+}
+.sujet_A{
+	margin-top:-45px;
+	font-size:2em;
+	color:#fff;
+}
+.contenu_A{
+	margin-top:-15px;
+	color:#888;
+}
+#avatar{
+	margin-top:-80px; 
+	margin-left:-8%;
+}
+img.avatar{
+	width:6%;
+	border:1px solid #222;
+	background-color:#111; 
+	border-radius:150%;
+}
+.auteur{
+	color:#fff;
+	margin-top:0%; 
+	font-size:23px;
+	text-align:left;
+	font-family:Arial; 
+}
+p.reponse{
+	margin-top:-10px; 
+	font-size:20px;
+	color:#999;
+	text-align:left;
+	font-family:Arial;
+}
+.bouton1{
+	margin-top:-50px;
+  margin-left:auto;
+	color:#222; 
+	background-color:;
+	width:20px;
+	height:20px;
+	font-size:15px;
+	border-radius:100%; 
+}
+.bouton1S{
+	margin-top:-5%;
+  margin-left:auto;
+	width:20px;
+	height:19px;
+	border-radius:100%; 
+}
+.date{
+	font-size:14px;
+	margin-top:-70px;
+	text-align:right; 
+	color:#666; 
+}
+hr{
+  color:#111; 
+}
+.position3{
+	margin-top:2%;
+	margin-right:auto;
+	margin-left:30%;
+}
+.discussion1{
+  width:85%;
+  margin-right:auto;
+	margin-left:auto;
+}
+div.ac{
+	overflow:auto;
+	width:auto;
+  height: 75%;
+}
+.discussion{
+	position:relative;
+	margin-top:-0em;
+	margin-right:auto;
+	margin-left:auto;
+	width:95%;
+	height:475px;
+	background-color:#222;
+	border-radius:0px 0px 10px 10px;
+	border:1px solid #888;
+	opacity:0.98;
+	
+}
+.averti{
+	color:#888;
+	animation: zoomout 4s ease-in infinite;
+  transition: all .4s ease-in-out;
+}
+
+@keyframes zoomout {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.9);}
+  100% {transform: scale(1);}
+  
+}
+table.envoie{
+	margin-right:auto;
+	margin-left:auto;
+	width:100%;
+	height:70px;
+	background-color:#111;
+	border-radius:0px 0px 10px 10px;
+}
+.texte2{
+	margin-right:auto;
+	margin-left:40px;
+  width:98%;
+	height:30px;
+	border-radius:3px 3px 3px 3px;
+	border:0px inset rgb(156,156,156);
+	color:rgb(200,200,200);
+	background-color:#555;
+	font-family: Arial, sans-serif;
+}
+.bouton{
+  margin-left:20%;
+	width:40%;
+	height:40px;
+	color:#fff;
+	background-color:#555;
+	border-radius:100px;
+	border:0px solid #888;
+}
+.menu{
+  position:fixed; 
+  left:0;
+  top:0;
+  bottom:0;
+  width:30%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.6;
+}
+
+*{
+  box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 45%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.position2{
+  position:fixed; 
+  left:0%;
+  bottom:0%;
+  width:30%;
+	height:12%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.7;
+}
+img.diap2{
+	width:11%;
+	margin-left:8%;
+}
+div.diap2S{
+	text-align:center;
+	margin-top:3%;
+	margin-left:-6%;
+}

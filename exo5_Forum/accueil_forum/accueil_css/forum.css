@@ -1,0 +1,247 @@
+@font-face {
+	font-family: "The Heart of Everything Demo";
+	src: url('../police/TheHeartof.ttf');
+}
+body{
+  margin:0;
+  line-height:1.5;
+  text-align:center;
+  background-image: url(../images/fond2.jpg);
+  background-repeat:no-repeat;
+  background-position:absolute;
+  background-size: cover;
+}
+
+		p.titre{
+			margin-top:-40px;
+			margin-right:auto;
+			margin-left:30%;
+			width:auto;
+			height:auto;
+			background: linear-gradient(to top, #fff, #fff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-family: The Heart of Everything Demo;
+			font-size:200px;
+		}
+.position1{
+	margin-top:-320px;
+}
+img.photo{
+	width:auto;
+	height:70px;
+	margin-left:80%;
+	transform: rotate(20deg);
+}
+.diapo{
+		margin-top:0px;
+}
+.mySlides{ 
+	width:95%;
+	height:455px;
+	border:1px solid #555;
+	border-radius:0px 0px 10px 10px;
+}
+
+.position3{
+	margin-top:0em;
+	margin-right:auto;
+	margin-left:30%;
+}
+p.salut{
+	margin-right:auto;
+	margin-left:auto;
+	width:auto;
+	height:auto;
+	color:white;
+	font-family: The Heart of Everything Demo;
+	font-size:2em;
+}
+.bienvenue{
+	margin-top:-1.5em;
+	margin-right:auto;
+	margin-left:auto;
+	width:90%;
+	height:3em;
+	background-color:black;
+	border-radius:10px 10px 0px 0px; 
+	opacity:0.8;
+}
+.bienvenue2{
+	margin-top:-0em;
+	margin-right:auto;
+	margin-left:auto;
+	width:90%;
+	height:30em;
+	background-color:black;
+	border-radius:0px 0px 10px 10px;
+	border:1px solid #888;
+}
+.post{
+		margin-top:0px;
+}
+.post1{ 
+	width:95%;
+	height:455px;
+	border:1px solid #555;
+	border-radius:0px 0px 10px 10px;
+}
+.bienvenue3{
+	margin-top:-0em;
+	margin-right:auto;
+	margin-left:auto;
+	width:90%;
+	height:30em;
+	background-color:black;
+	border-radius:0px 0px 10px 10px;
+	border:1px solid #888;
+}
+.menu{
+  position:fixed; 
+  left:0%;
+  top:0em;
+  bottom:0em;
+  width:30%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.6;
+}
+
+*{
+  box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 45%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.position{
+  position:fixed; 
+  left:0%;
+  top:0em;
+  width:30%;
+	height:40%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.7;
+}
+		p.flash{
+			margin-top:0.5em;
+			background: linear-gradient(to top, #fff, #fff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-family: The Heart of Everything Demo;
+			font-size:6em;
+			
+		}
+		p.flashTitre{
+			margin-top:-5em;
+			background: linear-gradient(to right, #fff, #fff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-family: Arial, sans-serif;
+			font-size:1em;
+		}
+.position_menu{
+  position:fixed; 
+  left:0%;
+  top:40%;
+	bottom:0;
+  width:30%;
+	height:48%; 
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+}
+		ul{
+	display: table;
+	width: 100%;
+  margin-left:0%;
+	margin-top:0%;
+  padding: 0;
+	opacity:1;
+	list-style: none;
+	font-size:1.8em; 
+		}
+		ul li a{
+			display: block;
+			position: relative;
+			text-align: center;
+			color: rgba(255, 255, 255, .7); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 5px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul li a::before{
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 9px;
+			margin-left: -2px;
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background: rgba(0, 0, 0, .5);
+		}
+		ul li a:hover::before,
+		ul li a:focus::before{
+			background: white;
+			box-shadow: 0 0 2px white, 
+						0 -1px 0 rgba(0, 0, 0, .4);
+		}
+		ul li:first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul li:last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul li a:hover, 
+		ul li a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 25px 17px 25px;
+		}
+		ul li a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}
+.position2{
+  position:fixed; 
+  left:0%;
+  bottom:0%;
+  width:30%;
+	height:12%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.7;
+}
+img.diap2{
+	width:11%;
+	margin-left:8%;
+}
+div.diap2S{
+	text-align:center;
+	margin-top:3%;
+	margin-left:-6%;
+}

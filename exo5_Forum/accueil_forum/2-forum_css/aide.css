@@ -1,0 +1,140 @@
+.position{
+  position:fixed; 
+  left:0%;
+  top:0em;
+  width:30%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+  opacity:0.7;
+}
+ul.aide{
+	    position:fixed;
+			display: table;
+			width: 30%;
+	    height:40%;
+      margin:auto;
+			padding: 0;
+			background: #555;
+			border-radius: 3px;
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+						0 3px 5px rgba(0, 0, 0, .2),
+						0 5px 10px rgba(0, 0, 0, .2),
+						0 20px 20px rgba(0, 0, 0, .15);
+		}
+		ul.aide li.aide1{
+			display: table-cell;
+			height:100%;
+			width: 50%;
+			border:1px solid #333;
+			background-image: url(../images/tuto.jpg);
+			background-repeat:no-repeat;
+      background-position:absolute;
+      background-size: cover;
+			
+		}
+		ul.aide li.aide2{
+			display: table-cell;
+			height:100%;
+			width: 50%;
+			border:1px solid #333;
+			background-image: url(../images/outils.jpg);
+			background-repeat:no-repeat;
+      background-position:absolute;
+      background-size: cover;
+			
+		}
+		ul.aide li.aide1 a{
+			display: block;
+			position: relative;
+			width: 100%;
+	    height:100%;
+			text-align: center;
+			color: rgba(255, 255, 255, 1); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 5px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.aide li.aide2 a{
+			display: block;
+			position: relative;
+	    width: 100%;
+	    height:100%;
+			text-align: center;
+			color: rgba(255, 255, 255, 1); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 5px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+		ul.aide li.aide1 a::before{
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 9px;
+			margin-left: -2px;
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background: rgba(0, 0, 0, .5);
+		}
+		ul.aide li.aide2 a::before{
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 9px;
+			margin-left: -2px;
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background: rgba(0, 0, 0, .5);
+		}
+		ul.aide li.aide1 a:hover::before,
+		ul.aide li.aide1 a:focus::before{
+			background: white;
+			box-shadow: 0 0 2px white, 
+						0 -1px 0 rgba(0, 0, 0, .4);
+		}
+		ul.aide li.aide2 a:hover::before,
+		ul.aide li.aide2 a:focus::before{
+			background: white;
+			box-shadow: 0 0 2px white, 
+						0 -1px 0 rgba(0, 0, 0, .4);
+		}
+		ul.aide li.aide1 :first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+		ul.aide li.aide2 :first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+	 ul.aide li.aide1 :last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+	 ul.aide li.aide2 :last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+		ul.aide li.aide1 a:hover, 
+		ul.aide li.aide1 a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 25px 17px 25px;
+		}
+		ul.aide li.aide2 a:hover, 
+		ul.aide li.aide2 a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 25px 17px 25px;
+		}
+		ul.aide li.aide1 a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	
+		ul.aide li.aide2 a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	

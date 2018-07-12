@@ -1,0 +1,78 @@
+.inscrist{
+	margin-top:18%;
+	width:30%;
+	height:15%;
+	color:white;
+	background-color:#555;
+	border-radius:100px;
+	border:0px solid #888;
+}
+.changer_profil{
+  position:fixed; 
+	right:0%; 
+  top:40%;
+  width:20%;
+	border:0px solid #333;
+	box-shadow:0px 1px 0px rgb(556,556,556);
+  background: linear-gradient(to right, #000,  #000);
+	font-family: Arial;
+  opacity:0.7;
+}
+ul.changer_profil2{
+	    position:fixed;
+			display: table;
+			width: 20%;
+	    height:40%;
+	    margin:0;
+			padding: 0;
+			background: #555;
+			border-radius: 3px;
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+						0 3px 5px rgba(0, 0, 0, .2),
+						0 5px 10px rgba(0, 0, 0, .2),
+						0 20px 20px rgba(0, 0, 0, .15);
+		}
+		ul.changer_profil2 li.changer_profil2{
+			display: table-cell;
+			height:100%;
+			width: 50%;
+			border:1px solid #333;
+			background-image: url(../../images/modifier.jpg);
+			background-repeat:no-repeat;
+      background-position:absolute;
+      background-size: cover;
+			
+		}
+
+		ul.changer_profil2 li.changer_profil2 a{
+			display: block;
+			position: relative;
+			width: 100%;
+	    height:100%;
+			text-align: center;
+			color: rgba(255, 255, 255, 1); 
+			text-decoration: none;
+			transition: padding .3s;
+			transition: all .3s .1s;
+			transition: padding .3s, background .3s;
+			padding: 8px 5px 17px 8px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+		}
+
+		ul.changer_profil2 li.changer_profil2 :first-child a{
+			border-radius: 3px 0 0 3px;
+		}
+	 ul.changer_profil2 li.changer_profil2 :last-child a{
+			border-radius: 0 3px 3px 0;
+		}
+
+		ul.changer_profil2 li.changer_profil2 a:hover, 
+		ul.changer_profil2 li.changer_profil2 a:focus{
+			transition: all .3s 0s;
+			background: rgba(255,255,255,.2);
+			padding: 8px 25px 17px 25px;
+		}
+		ul.changer_profil2 li.changer_profil2 a:active{
+			background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+			box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+		}	

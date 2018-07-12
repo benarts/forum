@@ -1,0 +1,74 @@
+div.ac{
+	margin-top:-40px; 
+	overflow:auto;
+	width:auto;
+  height: 75%;
+}
+h2.categories2{
+    background: #111111;
+    background: -webkit-linear-gradient(to right, #111111, #434343, #111111);
+    background: linear-gradient(to right, #111111, #434343,  #111111);
+	margin-top:0%;
+	font-size:3em;
+  color: #111;
+  font-family: Impact,sans-serif;
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+}
+div.date{
+	background: #111111;
+  background: -webkit-linear-gradient(to right, #111111, #434343, #111111);
+  background: linear-gradient(to right, #111111, #434343,  #111111);
+	text-align:center;
+	width:100%;
+	margin:auto;
+	font-size:0.6em; 
+	font-family: Arial;
+}
+hr{
+	width:100%;
+	color:#111;
+	margin-top:0%;
+}
+ul.sujet{
+	display: table;
+	width: 100%;
+  margin-left:0%;
+	margin-top:1.5%;
+	padding: 0;
+	list-style: none;
+	font-size:1.6em;
+	font-family: Arial;
+
+	
+}
+ul.sujet li.sujet1 a{
+	display: block;
+	position: relative;
+	text-align:center;
+	color: rgba(255, 255, 255, .7); 
+	text-decoration: none;
+	transition: padding .3s;
+	transition: all .3s .1s;
+	transition: padding .3s, background .3s;
+	padding: 8px 5px 17px 8px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+	margin-top:-1.5%;
+  background-color:#111;
+}
+
+ul.sujet li.sujet1:first-child a{
+	border-radius: 3px 0 0 3px;
+}
+ul.sujet li.sujet1:last-child a{
+	border-radius: 0 3px 3px 0;
+}
+ul.sujet li.sujet1 a:hover, 
+ul.sujet li.sujet1 a:focus{
+	transition: all .3s 0s;
+	background: rgba(255,255,255,.2);
+	padding: 8px 5px 17px 5px;
+}
+ul.sujet li.sujet1 a:active{
+	background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+	box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
